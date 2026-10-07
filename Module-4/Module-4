@@ -1,0 +1,12 @@
+### Module - 4 : Global Delivery
+
+```
+- Custom Domain Registration
+- Configure DNS A & CNAME records
+- SSL via let's Encrypt and Certbort
+- Automate 90-days SSL renewals
+- Cloudflare CDN edge caching
+- Restore real visitor IPs in Nginx
+- Eliminate SPA soft 404 traps
+- Port Scanning with NMAP
+```

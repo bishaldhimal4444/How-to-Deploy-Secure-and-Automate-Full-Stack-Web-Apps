@@ -1,84 +1,65 @@
 # How-to-Deploy-Secure-and-Automate-Full-Stack-Web-Apps
+
 Project From freeCodeCamp.org
 
 ### Module - 1 : Foundation
+
 ```
-- Droplet Provisioning
-- SSH keys and ED25519 generation
-- First login and package updates
-- Sudo users and disable root login
-- SSH configs and client shortcuts
-- UFW firewall lockdown
-- fail2ban defense setup
-- DigitalOcean recovery console
+- Cloud Infrastructure provisioning
+- SSH key authentication and shortcuts
+- Locked rootless user model
+- Disabling root login and Password auth
+- Firewall Configuration and Fail2Ban Protection
 ```
+
 ### Module - 2 : Application runtime
+
 ```
-- SCP code transfer and permissions
-- Python virtualenv and FASTAPI
-- Node.js, NVM, and pnpm setup
-- Fix OOM error with SWAP Memory
-- local test via SSH Tunneling
-- Gunicorn and Uvicorn workers
-- Supervisord process monitoring
-- Memory and zombie process via Btop
-- sync URL's with Vite Proxy
-- Nginx reverse proxy installation
-- fix 502 Gateway and permissions
-- Security Headers and CSP
+- Code upload and Production directory layout
+- Python backend and virtual environment setup
+- Swap memory configuration for low-RAM builds
+- Backend Process Management with Gunicorn and Supervisor
+- Nginx reverse proxy routing via Unix sockets
 ```
+
 ### Module - 3 : Data and Search
+
 ```
-- Self-host Meilisearch on Ubunut
-- Standard vs System users
-- DB dumps, snapshots and migration
-- secure keys and systemd service
-- seed search and connect FASTAPI
-- Automate daily snapshots
-- Meilisearch UI Dashboard
+- Data Export and Dump migration strategy
+- Meilisearch binary installation and setup
+- System user creation with restricted shell access
+- Background service management via systemd
+- Automated Daily shapshot backups configuration
+- Secure admin management via SSH Tunnels and GUI
+
 ```
-### Module - 4 : Global Delivery
+
+### Module - 4 : Global Delivery and App Security
+
 ```
-- Custom Domain Registration
-- Configure DNS A & CNAME records
-- SSL via let's Encrypt and Certbort
-- Automate 90-days SSL renewals
-- Cloudflare CDN edge caching
-- Restore real visitor IPs in Nginx
-- Eliminate SPA soft 404 traps
-- Port Scanning with NMAP
+- Domain Registration and DNS record management
+- Automated Let's Encrypt SSL/TLS certificate deployment with certbot
+- Automated certificate renewal configuration via cron and post-renewal hooks
+- Global CDN integration and SSL/TLS encryption setup with CloudFlare
 ```
-### Module - 5 : Automation Pipeline
+
+### Module - 5 : The Automation Pipeline
+
 ```
-- GitHub RuleSets Branch Protection
-- Local Hygiene via Pre-commit
-- Modular github actions CI
-- Software Composition Analysis
-- SAST scanning with Bandit
-- Live Meilisearch integration testing
-- E2E testing via Playwright
-- DAST Scanning with OWASP ZAP
-- frontend build and artifact generation
-- Automated backups and cleanup scripts
-- Passwordless visudo configuration
-- Secrets and Manual Deployment Reviews
-- Sync Production files with rsync
-- Dynamic env file generation
-- Atomic env swap and rollbacks
-- Rolling restarts (Supervisor/Nginx)
+- Branch Protection Rule Setup and Default branch hardening
+- local code formatting and linting via Git Pre-commit hooks
+- Modular CI Pipeline architecture using reusable GitHub Actions workflow
+- Automated unit testing, dependency auditing (SCA) and Code Scanning (SAST)
+- Live integration testing, Playwright E2E testing, and OWSAP ZAP DAST scans
 ```
- ### Module - 6 : Optimization and Maintenance
+
+### Module - 6 : Optimization and Maintenance
+
 ```
-- Parsing Nginx logs via GoAccess
-- Password-Protected Analytics Dashboard
-- Solving CSP restrictions via nonces
-- Aggregating compressed logs via zgrep
-- Hourly automated dashboard updates
-- Real-time server monitoring via Btop
-- Block Malicious bots with UFW
-- Load testing and latency via Locust
-- Disk Usage analysis via NCDU
-- JournalD and Nginx log retention
-- Monthly corn maintenance scripts
-- Scheduled deep DAST scanning
+- Traffic analytics with GoAccess and Nginx logs
+- Real-time system resource monitoring and process tracking using Btop
+- Traffic anomaly detection and outlier IP banning using UFW firewall rules
+- Backend API load testing and performance benchmarking using locust
+- Disk usage analysis with NCDU and systemd journal storage restriction
+- Log retention policy updates and automated monthly system cleanup scripts
 ```

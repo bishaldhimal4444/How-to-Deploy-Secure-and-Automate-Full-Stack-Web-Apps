@@ -1,0 +1,16 @@
+### Module - 6 : Optimization and Maintenance
+
+```
+- Parsing Nginx logs via GoAccess
+- Password-Protected Analytics Dashboard
+- Solving CSP restrictions via nonces
+- Aggregating compressed logs via zgrep
+- Hourly automated dashboard updates
+- Real-time server monitoring via Btop
+- Block Malicious bots with UFW
+- Load testing and latency via Locust
+- Disk Usage analysis via NCDU
+- JournalD and Nginx log retention
+- Monthly corn maintenance scripts
+- Scheduled deep DAST scanning
+```

@@ -1,0 +1,11 @@
+### Module - 3 : Data and Search
+
+```
+- Self-host Meilisearch on Ubunut
+- Standard vs System users
+- DB dumps, snapshots and migration
+- secure keys and systemd service
+- seed search and connect FASTAPI
+- Automate daily snapshots
+- Meilisearch UI Dashboard
+```
