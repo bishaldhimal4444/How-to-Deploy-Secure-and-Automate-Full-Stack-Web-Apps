@@ -39,5 +39,35 @@ Project From freeCodeCamp.org
 ```
 ### Module - 4 : Global Delivery
 ```
-- 
+- Custom Domain Registration
+- Configure DNS A & CNAME records
+- SSL via let's Encrypt and Certbort
+- Automate 90-days SSL renewals
+- Cloudflare CDN edge caching
+- Restore real visitor IPs in Nginx
+- Eliminate SPA soft 404 traps
+- Port Scanning with NMAP
+```
+### Module - 5 : Automation Pipeline
+```
+- GitHub RuleSets Branch Protection
+- Local Hygiene via Pre-commit
+- Modular github actions CI
+- Software Composition Analysis
+- SAST scanning with Bandit
+- Live Meilisearch integration testing
+- E2E testing via Playwright
+- DAST Scanning with OWASP ZAP
+- frontend build and artifact generation
+- Automated backups and cleanup scripts
+- Passwordless visudo configuration
+- Secrets and Manual Deployment Reviews
+- Sync Production files with rsync
+- Dynamic env file generation
+- Atomic env swap and rollbacks
+- Rolling restarts (Supervisor/Nginx)
+```
+ ### Module - 6 : Optimization and Maintenance
+```
+
 ```
